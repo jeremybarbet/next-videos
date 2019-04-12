@@ -1,0 +1,26 @@
+{
+  "name": "next-videos",
+  "version": "1.0.0",
+  "description": "Import videos (mp4, webm, ogg, swf) in Next.js.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremybarbet/next-videos.git"
+  },
+  "keywords": [
+    "next",
+    "react",
+    "videos",
+    "component"
+  ],
+  "author": "Jérémy Barbet <jeremgraph@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremybarbet/next-videos/issues"
+  },
+  "homepage": "https://github.com/jeremybarbet/next-videos#readme",
+  "dependencies": {
+    "file-loader": "^3.0.1",
+    "url-loader": "^1.1.2"
+  }
+}
