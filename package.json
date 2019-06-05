@@ -1,6 +1,6 @@
 {
   "name": "next-videos",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Import videos (mp4, webm, ogg, swf) in Next.js.",
   "main": "index.js",
   "repository": {
