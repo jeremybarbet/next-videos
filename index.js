@@ -15,7 +15,7 @@ module.exports = (nextConfig = {}) => {
           {
             loader: 'file-loader',
             options: {
-              publicPath: `${nextConfig.assetPrefix}/_next/static/videos/`,
+              publicPath: `${nextConfig.assetPrefix || ''}/_next/static/videos/`,
               outputPath: `${isServer ? '../' : ''}static/videos/`,
               name: '[name]-[hash].[ext]',
             },
