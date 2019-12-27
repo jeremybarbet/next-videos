@@ -10,7 +10,7 @@ module.exports = (nextConfig = {}) => {
       }
 
       config.module.rules.push({
-        test: /\.(mp4|webm|ogg|swf)$/,
+        test: /\.(mp4|webm|ogg|swf|ogv)$/,
         use: [
           {
             loader: 'file-loader',
