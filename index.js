@@ -13,7 +13,7 @@ module.exports = (nextConfig = {}) => {
         test: /\.(mp4|webm|ogg|swf|ogv)$/,
         use: [
           {
-            loader: 'file-loader',
+            loader: require.resolve('file-loader'),
             options: {
               publicPath: `${nextConfig.assetPrefix || ''}/_next/static/videos/`,
               outputPath: `${isServer ? '../' : ''}static/videos/`,
