@@ -52,18 +52,3 @@ module.exports = withVideos({
   }
 })
 ```
-
-### assetDirectory
-With [Next.js 9.1](https://nextjs.org/blog/next-9-1#public-directory-support), assets are now served under `public` and not `static` directory. This is an option to manage which path you are using. Default value is now `public`.
-
-```js
-const withVideos = require('next-videos')
-
-module.exports = withVideos({
-  assetDirectory: 'static',
-
-  webpack(config, options) {
-    return config
-  }
-})
-``
