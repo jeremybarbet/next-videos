@@ -10,6 +10,7 @@ module.exports = (nextConfig = {}) => {
       }
 
       const prefix = nextConfig.assetPrefix || '';
+      const basePath = nextConfig.basePath || '';
 
       config.module.rules.push({
         test: /\.(mp4|webm|ogg|swf|ogv)$/,
@@ -17,7 +18,7 @@ module.exports = (nextConfig = {}) => {
           {
             loader: require.resolve('file-loader'),
             options: {
-              publicPath: `${prefix}/_next/static/videos/`,
+              publicPath: `${prefix || basePath}/_next/static/videos/`,
               outputPath: `${isServer ? '../' : ''}static/videos/`,
               name: '[name]-[hash].[ext]',
             },
