@@ -8,6 +8,11 @@ declare module "*.webm" {
   export = value;
 }
 
+declare module "*.mov" {
+  const value: string;
+  export = value;
+}
+
 declare module "*.ogg" {
   const value: string;
   export = value;
