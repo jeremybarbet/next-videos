@@ -52,3 +52,18 @@ module.exports = withVideos({
   }
 })
 ```
+
+### basePath
+You can serve your videos to prefixed path by setting `basePath` option 
+
+```js
+const withVideos = require('next-videos')
+
+module.exports = withVideos({
+  basePath: '/v2',
+
+  webpack(config, options) {
+    return config
+  }
+})
+```
