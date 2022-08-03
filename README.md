@@ -1,7 +1,7 @@
 # Next Videos
 [![npm version](https://badge.fury.io/js/next-videos.svg)](https://badge.fury.io/js/next-videos)
 
-Import videos (mp4, webm, ogg, swf, ogv) in Next.js.
+Import videos (mp4, webm, mov, ogg, swf, ogv) in Next.js.
 
 ## Features
 
